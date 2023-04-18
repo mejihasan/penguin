@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PASS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/passstyle.css">
+
+
+</head>
+
+<body>
+    <form class="login-form">
+        <p class="login-text">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-lock fa-stack-1x"></i>
+            </span>
+        </p>
+        <input type="button" name="Login" value="Login" class="login-submit" onclick="gate();" />
+
+    </form>
+
+    <script type="text/javascript">
+
+        function gate() {
+            var UserInput = prompt("パスワードを入力して下さい:", "");
+            location.href = UserInput + ".html";
+        }
+    </script>
+
+    <div class="underlay-photo"></div>
+    <div class="underlay-black"></div>
+
+</body>
