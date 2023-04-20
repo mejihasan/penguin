@@ -1,33 +1,11 @@
 /* club1.html ここから↓ */
-body {
-    background-color: #b1291a;
-    animation: bg-color 0.5s infinite;
-}
+body{
+    background-image: url(../img/ラーメン.JPG);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 
-@keyframes bg-color {
-    0% {
-        background-color: #ff5353;
-    }
-
-    20% {
-        background-color: #ffcf53;
-    }
-
-    40% {
-        background-color: #e8ff53;
-    }
-
-    60% {
-        background-color: #53ff5d;
-    }
-
-    80% {
-        background-color: #5393ff;
-    }
-
-    100% {
-        background-color: #ff53bd;
-    }
 }
 
 p {
@@ -53,10 +31,15 @@ p {
     box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
 }
 
-.creation h3 {
+.creation{
+    padding-bottom: 8%;
+}
+
+
+.row h3 {
     text-decoration: underline;
     text-underline-offset: 7px;
-    margin-top: 7%;
+    margin-top: 5%;
     text-align: center;
     color: #000;
 }
