@@ -1,4 +1,34 @@
 /* club1.html ここから↓ */
+body {
+    background-color: #b1291a;
+    animation: bg-color 0.5s infinite;
+}
+
+@keyframes bg-color {
+    0% {
+        background-color: #ff5353;
+    }
+
+    20% {
+        background-color: #ffcf53;
+    }
+
+    40% {
+        background-color: #e8ff53;
+    }
+
+    60% {
+        background-color: #53ff5d;
+    }
+
+    80% {
+        background-color: #5393ff;
+    }
+
+    100% {
+        background-color: #ff53bd;
+    }
+}
 
 
 p {
