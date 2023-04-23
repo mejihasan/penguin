@@ -2,11 +2,9 @@ body {
     width: 100%;
     height: 100vh;
     background-image: url(../img/マリオ.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-
 
 
 h2 {
@@ -128,7 +126,7 @@ h2 span:after {
     background-color: #fff;
 }
 
-.box-019 > div {
+.box-019>div {
     position: absolute;
     top: -1.15em;
     left: -.5em;
